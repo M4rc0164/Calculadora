@@ -1,0 +1,41 @@
+.pagina {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 70px;
+  background-color: rgb(233, 233, 239);
+}
+
+.pagina .contenedor {
+  border-radius: 4px;
+  height: 400px;
+  width: 400px;
+  margin-top: 40px;
+  background-color: rgb(128, 128, 129);
+  display: flex;
+  flex-direction: column;
+}
+
+.pagina .contenedor .botones {
+  height: 70%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 10px;
+}
+
+.pagina .contenedor .pantalla {
+  border-radius: 5px;
+  margin: 10px;
+  height: 10%;
+  background-color: rgb(233, 233, 239);
+}
+
+.pagina .contenedor .botones .button {
+  background-color: rgb(233, 233, 239);
+  border-radius: 4px;
+}
+.pagina .contenedor .botones .buttoneq {
+  background-color: rgb(156, 155, 248);
+  border-radius: 4px;
+}
