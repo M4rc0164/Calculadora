@@ -29,13 +29,32 @@
   margin: 10px;
   height: 10%;
   background-color: rgb(233, 233, 239);
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 28px;
+  color: rgb(156, 155, 248);;
 }
 
 .pagina .contenedor .botones .button {
   background-color: rgb(233, 233, 239);
   border-radius: 4px;
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 24px;
+  cursor: pointer;
+}
+.pagina .contenedor .botones .button:hover {
+  background-color:rgb(193, 193, 200); ;
+
 }
 .pagina .contenedor .botones .buttoneq {
   background-color: rgb(156, 155, 248);
   border-radius: 4px;
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 24px;
+  cursor: pointer;
+}
+.pagina .contenedor .botones .buttoneq:hover {
+  background-color: rgb(131, 130, 209);
 }
